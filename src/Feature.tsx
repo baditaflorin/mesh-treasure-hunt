@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import {
+  MeshNameInput,
   PersonalQR,
   useQRScanner,
   parseScanPayload,
@@ -128,12 +129,12 @@ function Body({ room, config }: { room: YRoom; config: MeshConfig }) {
         </p>
       </header>
 
-      <input
-        className="viral-name"
+      <MeshNameInput
         value={name}
-        onChange={(e) => setName(e.target.value)}
+        onChange={setName}
         placeholder="your name"
         maxLength={48}
+        className="viral-name"
       />
 
       {totalSteps === 0 && (
