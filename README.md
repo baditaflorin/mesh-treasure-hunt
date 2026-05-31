@@ -1,7 +1,7 @@
 # mesh-treasure-hunt
 
 [![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-treasure-hunt-06b6d4)](https://baditaflorin.github.io/mesh-treasure-hunt/)
-[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/baditaflorin/mesh-treasure-hunt/blob/main/package.json)
+[![version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/baditaflorin/mesh-treasure-hunt/blob/main/package.json)
 [![license](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 > Ordered QR treasure hunt — print N posters, scan them in order to win
