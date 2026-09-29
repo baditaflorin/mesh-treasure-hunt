@@ -1,0 +1,11 @@
+steps:
+  verify:
+    image: node:22
+    commands:
+      - bash scripts/prepare-mesh-common.sh
+      - npm ci
+      - npm run fmt:check
+      - npm run typecheck
+      - npm run test:unit
+      - npm run smoke
+      - npm run build
