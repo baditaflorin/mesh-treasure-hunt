@@ -4,6 +4,7 @@ steps:
     commands:
       - bash scripts/prepare-mesh-common.sh
       - npm ci
+      - npm audit --audit-level=low
       - npm run fmt:check
       - npm run typecheck
       - npm run test:unit
